@@ -1,0 +1,13 @@
+{
+  "name": "twbot",
+  "version": "1.0.0",
+  "description": "Bot tw",
+  "main": "runner.js",
+  "scripts": {},
+  "author": "FELIPE MOURA",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "puppeteer": "^1.8.0"
+  }
+}

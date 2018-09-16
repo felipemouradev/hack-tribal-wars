@@ -1,0 +1,3 @@
+
+Sun Sep 16 2018 19:22:26 GMT-0300 (-03): 
+redirect: http://w4.infernal-wars.com/game.php?village=1917&screen=main
