@@ -7,7 +7,7 @@ const password = process.env.PASSWORD;
 
 const settings = {
     headless: true,
-    world: "w4",
+    world: process.env.TW_WORLD,
     isUpdateBuildings: true,
     isUpdateBarracksUnit: false,
     isUpdateStableUnits: false,

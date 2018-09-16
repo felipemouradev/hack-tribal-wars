@@ -12,7 +12,9 @@ clone this repo:
 
 Set ENV Variables
 ```
-export LOGIN=YOUR_LOGIN_TW_INFERNO && export PASSWORD=YOUR_PASSWORD_TW_INFERNO
+export LOGIN=YOUR_LOGIN_TW_INFERNO && 
+export PASSWORD=YOUR_PASSWORD_TW_INFERNO && 
+export TW_WORLD=YOUR_TW_WORD
 ```
 
 Install dependecies 
