@@ -60,7 +60,9 @@ const settings = {
     });
     await page.waitForNavigation();
 
-    await page.goto(`http://${settings.world}.infernal-wars.com//game.php?village=1777&screen=overview_villages`);
+    const currentUrl = await page.evaluate(() => location.href);
+
+    await page.goto(currentUrl.replace("overview", "overview_villages"));
 
     const allVillagesUrls = await page.evaluate(async (urls, settings) => {
         const tab = document.getElementsByClassName("vis")[1];
